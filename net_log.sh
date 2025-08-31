@@ -5,7 +5,7 @@
 #   ./net_log.sh <iface> [interval_seconds] [process_filter]
 # Examples:
 #   ./net_log.sh wlp4s0 1 steam        # Only Steam processes
-#   ./net_log.sh wlp4s0 1 xivlauncher  # XIVLauncher / FFXIV
+#   ./net_log.sh wlp4s0 1 insert-game-launcher-here  # Insert Game Title Here
 #   ./net_log.sh wlp4s0 1 all          # All established connections
 #
 # Output: CSV -> timestamp,iface,mb_per_s,peers
