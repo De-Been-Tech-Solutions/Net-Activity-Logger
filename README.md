@@ -1,15 +1,15 @@
 # Net-Activity-Logger
 A lightweight Bash script to monitor network throughput and active peers on Linux.  Originally built to diagnose Steam download throttling on gigabit connections, but works with any process or all traffic.
 
-Features
+Features:
 
-Logs per-second throughput (MB/s) on a chosen network interface.
+1. Logs per-second throughput (MB/s) on a chosen network interface.
 
-Captures active TCP peers (with optional process filter).
+2. Captures active TCP peers (with optional process filter).
 
-Outputs in CSV-style format (easy to parse, graph, or upload as .txt).
+3. Outputs in CSV-style format (easy to parse, graph, or upload as .txt).
 
-Works on any modern Linux distro (tested Fedora/Nobara/Ubuntu).
+4. Works on any modern Linux distro (tested Fedora/Nobara/Ubuntu).
 
 Usage
 chmod +x net_log.sh
